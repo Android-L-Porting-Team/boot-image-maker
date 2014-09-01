@@ -13,3 +13,7 @@ The makefiles assume a linux environment where `abootimg` is avaliable. This is 
 *Make edits in the ramdisk as needed for your custom kernel           
 *From the root directory type make to create the repacked boot image              
 *Repacked boot image can be found in /out
+
+This automaticlly creates the empty directories that are normally found in a boot image
+if you use one of those empty directories, add it to the ramdisk and delete the line from
+makefile 
