@@ -38,6 +38,7 @@ drm.drmManager                            u:object_r:drmserver_service:s0
 dropbox                                   u:object_r:system_server_service:s0
 entropy                                   u:object_r:system_server_service:s0
 ethernet                                  u:object_r:system_server_service:s0
+fingerprint                               u:object_r:system_server_service:s0
 gfxinfo                                   u:object_r:system_server_service:s0
 hardware                                  u:object_r:system_server_service:s0
 hdmi_control                              u:object_r:system_server_service:s0
@@ -48,7 +49,7 @@ iphonesubinfo_msim                        u:object_r:radio_service:s0
 iphonesubinfo2                            u:object_r:radio_service:s0
 iphonesubinfo                             u:object_r:radio_service:s0
 ims                                       u:object_r:radio_service:s0
-imms                                      u:object_r:system_app_service:s0
+imms                                      u:object_r:system_server_service:s0
 isms_msim                                 u:object_r:radio_service:s0
 isms2                                     u:object_r:radio_service:s0
 isms                                      u:object_r:radio_service:s0
@@ -88,6 +89,7 @@ radio.phonesubinfo                        u:object_r:radio_service:s0
 radio.phone                               u:object_r:radio_service:s0
 radio.sms                                 u:object_r:radio_service:s0
 restrictions                              u:object_r:system_server_service:s0
+rttmanager                                u:object_r:system_server_service:s0
 samplingprofiler                          u:object_r:system_server_service:s0
 scheduling_policy                         u:object_r:system_server_service:s0
 search                                    u:object_r:system_server_service:s0
@@ -101,7 +103,7 @@ sip                                       u:object_r:radio_service:s0
 statusbar                                 u:object_r:system_server_service:s0
 SurfaceFlinger                            u:object_r:surfaceflinger_service:s0
 task                                      u:object_r:system_server_service:s0
-telecomm                                  u:object_r:radio_service:s0
+telecom                                   u:object_r:radio_service:s0
 telephony.registry                        u:object_r:system_server_service:s0
 textservices                              u:object_r:system_server_service:s0
 trust                                     u:object_r:system_server_service:s0
@@ -119,25 +121,5 @@ wifip2p                                   u:object_r:system_server_service:s0
 wifiscanner                               u:object_r:system_server_service:s0
 wifi                                      u:object_r:system_server_service:s0
 window                                    u:object_r:system_server_service:s0
-#
-net_bt_admin                              u:object_r:system_server_service:s0
-net_bt                                    u:object_r:system_server_service:s0
-net_bt_stack                              u:object_r:system_server_service:s0
-vpn                                       u:object_r:system_server_service:s0
-inet                                      u:object_r:system_server_service:s0
-log                                       u:object_r:system_server_service:s0
-sdcard_r                                  u:object_r:system_server_service:s0
-sdcard_rw                                 u:object_r:system_server_service:s0
-sdcard_all                                u:object_r:system_server_service:s0
-media_rw                                  u:object_r:system_server_service:s0
-mtp                                       u:object_r:system_server_service:s0
-net_admin                                 u:object_r:system_server_service:s0
-cache                                     u:object_r:system_server_service:s0
-input                                     u:object_r:system_server_service:s0
-diag                                      u:object_r:system_server_service:s0
-net_bw_stats                              u:object_r:system_server_service:s0
-net_bw_acct                               u:object_r:system_server_service:s0
-loop_radio                                u:object_r:radio_service:s0
-media                                     u:object_r:surfaceflinger_service:s0
-graphics                                  u:object_r:system_server_service:s0
+
 *                                         u:object_r:default_android_service:s0
